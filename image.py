@@ -31,6 +31,7 @@ cv.waitKey(0)
 
 img3 = img3[0:img.shape[0]//2,0:img.shape[1]//2]
 #img3 = cv.resize(img, (img.shape[1],img.shape[0]), interpolation = cv.INTER_AREA)
+#uncomment above line to resize the image
 
 cv.imshow('img',img3)
 cv.waitKey(0)
